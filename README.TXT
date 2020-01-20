@@ -1,12 +1,11 @@
 ------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
+Starting Code for the Fun With Words coding assignment.
+Loads an array of over 23,000 words that students can manipulate.
 ------------------------------------------------------------------------
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+PROJECT TITLE:          Fun with Words
+PURPOSE OF PROJECT:     Practice with arrays of Strings
+VERSION or DATE:        Original starter code 2020-01-17
+HOW TO START THIS PROJECT:    Compile and Run Tester.java
+AUTHORS:                Michael Buescher  mbuescher@hb.edu
+USER INSTRUCTIONS:      Play and have fun!
