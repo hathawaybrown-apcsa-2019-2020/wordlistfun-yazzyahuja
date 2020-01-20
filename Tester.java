@@ -11,16 +11,25 @@ import java.util.ArrayList;
 
 public class Tester
 {
+    public static void report (ArrayList<String> wordList)
+    {
+        for (String word : wordList)
+        {
+            System.out.println (word);
+        }
+        System.out.println (wordList.size() + " words!");
+    }
+    
     public static void main (String[] args)
     {
         Scanner kbd = new Scanner (System.in);
         WordArray myWords = new WordArray();
         System.out.println ("Loaded over 23,000 words!");
         
-        System.out.print ("How many random words would you like?");
+        System.out.print ("How many random words would you like? ");
         int n = kbd.nextInt();
         ArrayList results = myWords.getRandomWords (n);
-        System.out.println (results);
+        report(results);
         
         kbd.close();
     }
